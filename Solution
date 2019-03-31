@@ -1,0 +1,6 @@
+def birthday(chocoNum, days, month):
+    counter =0
+    for i in range(len(chocoNum)):
+        if (days==sum(chocoNum[i:i+month])):
+            counter= counter +1
+    return counter  
